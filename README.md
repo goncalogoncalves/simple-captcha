@@ -1,3 +1,5 @@
 # simple_captcha
 
-test
+A simple custom captcha system.
+
+Run test.php to see it in action.
