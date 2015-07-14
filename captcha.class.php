@@ -2,7 +2,7 @@
 
 /**
  * Captcha
- * Classe responsible to create and validate a captcha
+ * Class responsible to create and validate a captcha
  *
  * Created by Gonçalo Gonçalves - goncalofbg@gmail.com
  *
