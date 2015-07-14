@@ -1,5 +1,7 @@
 # simple_captcha
 
-A simple custom captcha system.
+A simple custom captcha system
 
-Run test.php to see it in action.
+PHP + Ajax
+
+Run test.php to see it in action
