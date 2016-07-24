@@ -16,7 +16,6 @@ class Captcha {
 	public $charNumber       = 6;
 	public $arrayFonts       = array('claredon.ttf', 'courier_bold.ttf', 'toledo.ttf','valken.ttf', 'impact.ttf');
 	//public $possibleChars  = '23456789ABCDEFGHKLMNPQRSTUVYWXZ';
-	//public $possibleChars  = '1234567890';
 	public $possibleChars    = 'ABCDEFGHKLMNPQRSTUVYWXZ';
 	public $fontPath         = "";
 	public $addDots          = true;
