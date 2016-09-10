@@ -1,0 +1,9 @@
+.captcha-bar-tools {
+  float: right;
+  width: 20px;
+  height: 50px;
+}
+
+.captcha-bar-tools img {
+  width: 100%;
+}

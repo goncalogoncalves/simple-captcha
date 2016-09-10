@@ -6,6 +6,7 @@
 	<title>Test captcha</title>
 	<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 	<script type="text/javascript" src="js/captcha.js"></script>
+	<link rel="stylesheet" href="css/styles.css" media="screen">
 </head>
 <body>
 

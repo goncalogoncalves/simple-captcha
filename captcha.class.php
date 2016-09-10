@@ -15,8 +15,8 @@ class Captcha {
 	public $imageHeight      = 50;
 	public $charNumber       = 6;
 	public $arrayFonts       = array('claredon.ttf', 'courier_bold.ttf', 'toledo.ttf','valken.ttf', 'impact.ttf');
-	//public $possibleChars  = '23456789ABCDEFGHKLMNPQRSTUVYWXZ';
-	public $possibleChars    = 'ABCDEFGHKLMNPQRSTUVYWXZ';
+	public $possibleChars  = '23456789ABCDEFGHKLMNPQRSTUVYWXZ';
+	//public $possibleChars    = 'ABCDEFGHKLMNPQRSTUVYWXZ';
 	public $fontPath         = "";
 	public $addDots          = true;
 	public $addLines         = false;
@@ -118,15 +118,15 @@ class Captcha {
 			$letter = substr($this->possibleChars, mt_rand(0, strlen($this->possibleChars)-1), 1);
 
 			// bonus
-			/*switch ($c) {
-			    case 0: $letter = "C"; break;
-			    case 1: $letter = "O"; break;
-			    case 2: $letter = "D"; break;
-			    case 3: $letter = "E"; break;
-			    case 4: $letter = "1"; break;
-			    case 5: $letter = "2"; break;
-			    case 6: $letter = "3"; break;
-			}*/
+			switch ($c) {
+			    case 0: $letter = "G"; break;
+			    case 1: $letter = "I"; break;
+			    case 2: $letter = "T"; break;
+			    case 3: $letter = "H"; break;
+			    case 4: $letter = "U"; break;
+			    case 5: $letter = "B"; break;
+			    //case 6: $letter = ""; break;
+			}
 
 			imagettftext($image, $letterSize, $angle, $x, $y, $colorText, $font, $letter);
 			$this->captchaCode = $this->captchaCode.$letter;
@@ -149,7 +149,7 @@ class Captcha {
 		<tr>
 			<td>'.$htmlCaptchaImage.'
 				<div class="captcha-bar-tools">
-					<a href="javascript:createCaptcha();" title="Change image"><img src="img/refresh.png" alt="create new captcha"></a>
+					<a href="javascript:createCaptcha();" title="Change image"><img src="imgs/refresh.png" alt="create new captcha"></a>
 				</div>
 			</td>
 		</tr>
