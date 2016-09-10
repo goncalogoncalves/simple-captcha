@@ -1,7 +1,7 @@
-# simple_captcha
+# simple-captcha
 
-![alt text](https://github.com/goncalogoncalves/simple-captcha/imgs/simple-captcha.png "Simple captcha")
+![alt text](https://github.com/goncalogoncalves/simple-captcha/blob/master/imgs/simple-captcha.png "Simple captcha")
 
-A simple custom captcha system.
+A simple custom PHP captcha system.
 
 Run test.php to see it in action.
